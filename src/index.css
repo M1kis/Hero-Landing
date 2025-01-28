@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.motos-slider .slick-slide > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    height: 430px;
+}
+
+.hero-slider .slick-slide > div {
+    margin: 0 0px;
+}
+
+.banks-slider .slick-slide > div {
+    padding-bottom: 10px;
+    margin: 0 10px;
+}
+
+
+.arrow{
+    display: flex;
+    position: absolute;
+    font-size: 25px;
+    top: 210px;
+}
+
+.arrow-right{
+    cursor: pointer;
+    right: -50px;
+    transition: all .5s;
+}
+
+.arrow-right:hover{
+    transform: scale(1.1);
+}
+
+.arrow-left{
+    cursor: pointer;
+    left: -50px;
+    transition: all .5s;
+}
+
+.arrow-left:hover{
+    transform: scale(1.1);
+}
+
+.center{
+    background-color: aqua;
+}
+
+.slick-dots li.slick-active button:before {
+    --tw-border-opacity: 1;
+    color: var(--fallback-b2,oklch(var(--b2)/var(--tw-border-opacity))) !important;
+    --tw-bg-opacity: 1;
+    color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity))) !important;
+    --tw-text-opacity: 1;
+    color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity))) !important;
+}
+
+.slick-dots li button:before {
+    --tw-border-opacity: 1;
+    color: var(--fallback-b2,oklch(var(--b2)/var(--tw-border-opacity))) !important;
+    --tw-bg-opacity: 1;
+    color: var(--fallback-b1,oklch(var(--b1)/var(--tw-bg-opacity))) !important;
+    --tw-text-opacity: 1;
+    color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity))) !important;
+}
+
