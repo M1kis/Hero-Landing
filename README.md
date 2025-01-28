@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# 🏍️ HERO Motos Colombia - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio del proyecto **HERO Motos Colombia**, una página web de venta de motos nuevas de la marca HERO en Colombia. Este proyecto es un landing page diseñado para presentar la marca y sus productos de manera atractiva y funcional.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Estructura básica**: La página cuenta con las secciones principales: Header, Hero, Content, Services y Footer.
+- **Integración de WhatsApp**: Incluye un botón de WhatsApp para facilitar la comunicación con los clientes.
+- **Diseño responsive**: La página está diseñada para ser completamente responsive, adaptándose a diferentes dispositivos y tamaños de pantalla.
+- **Sliders interactivos**: Utiliza sliders para mostrar imágenes y contenido de manera dinámica.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React**: Biblioteca de JavaScript para construir la interfaz de usuario.
+- **TypeScript**: Superset de JavaScript que añade tipos estáticos para mejorar la calidad del código.
+- **Tailwind CSS**: Framework de CSS utilitario para diseñar la interfaz de manera eficiente.
+- **DaisyUI**: Plugin de Tailwind CSS que proporciona componentes preconstruidos y estilos adicionales.
+- **NPM**: Gestor de paquetes para instalar y gestionar dependencias.
+- **React Slick**: Biblioteca para crear sliders y carruseles en React.
